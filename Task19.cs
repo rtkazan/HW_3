@@ -1,8 +1,3 @@
-using System;  
-    class Program  
-    {  
-        static void Main(string[] args)  
-        {  
           Console.Clear();
           Console.Write("Введите пятизначное число: ");
           int n = Convert.ToInt32(Console.ReadLine());
@@ -16,8 +11,4 @@ using System;
             }
             else Console.WriteLine("нет");
           Console.WriteLine("не пятизначное число");
-              
             
-        }
-    }
-
